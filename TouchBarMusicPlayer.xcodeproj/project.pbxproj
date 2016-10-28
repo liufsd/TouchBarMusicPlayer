@@ -10,6 +10,8 @@
 		06C9E5CA1DC3CC8D00496375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9E5C91DC3CC8D00496375 /* AppDelegate.swift */; };
 		06C9E5CC1DC3CC8D00496375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C9E5CB1DC3CC8D00496375 /* Assets.xcassets */; };
 		06C9E5CF1DC3CC8D00496375 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C9E5CD1DC3CC8D00496375 /* MainMenu.xib */; };
+		06C9E5D81DC3CCF600496375 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9E5D61DC3CCF600496375 /* WindowController.swift */; };
+		06C9E5D91DC3CCF600496375 /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C9E5D71DC3CCF600496375 /* WindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		06C9E5CB1DC3CC8D00496375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06C9E5CE1DC3CC8D00496375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		06C9E5D01DC3CC8D00496375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C9E5D61DC3CCF600496375 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		06C9E5D71DC3CCF600496375 /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 				06C9E5C91DC3CC8D00496375 /* AppDelegate.swift */,
 				06C9E5CB1DC3CC8D00496375 /* Assets.xcassets */,
 				06C9E5CD1DC3CC8D00496375 /* MainMenu.xib */,
+				06C9E5D61DC3CCF600496375 /* WindowController.swift */,
+				06C9E5D71DC3CCF600496375 /* WindowController.xib */,
 				06C9E5D01DC3CC8D00496375 /* Info.plist */,
 			);
 			path = TouchBarMusicPlayer;
@@ -119,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C9E5CC1DC3CC8D00496375 /* Assets.xcassets in Resources */,
+				06C9E5D91DC3CCF600496375 /* WindowController.xib in Resources */,
 				06C9E5CF1DC3CC8D00496375 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C9E5CA1DC3CC8D00496375 /* AppDelegate.swift in Sources */,
+				06C9E5D81DC3CCF600496375 /* WindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
